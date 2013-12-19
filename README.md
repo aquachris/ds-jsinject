@@ -9,3 +9,4 @@ Note that this is basically a development experiment. Please use with care.
 
 Thanks to Mike Howles for initiating the code exchange. 
 Check out his plugin over at over at entmike/com.ipaper.sample.htmltemplate#1
+User/Repository#Num: mojombo/github-flavored-markdown#1
