@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ABRA JS injector
+Bundle-SymbolicName: de.abracon.jscript;singleton:=true
+Bundle-Version: 0.2
+Require-Bundle: com.sap.ip.bi.zen.rt.components.sdk.eclipse
+Bundle-Vendor: ABRACON GmbH

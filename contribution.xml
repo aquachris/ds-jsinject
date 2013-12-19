@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdkExtension xmlns="http://www.sap.com/bi/zen/sdk"
+	title="ABRA JS injector"
+	version="0.2"
+	vendor="ABRACON GmbH"
+	id="de.abracon.jscript">
+	<group id="abracon" title="ABRACON Addons" />
+	<group id="Javascript" title="Javascript" />
+	<component id="JSInjector"
+		title="ABRA JS injector"
+		icon="res/icon.png"
+		handlerType="div"
+		group="abracon"
+		propertySheetPath="res/additional_properties_sheet/additional_properties_sheet.html">
+		
+		<jsInclude>res/js/component.js</jsInclude>
+		<cssInclude>res/css/styles.css</cssInclude>
+
+		<property id="scriptURL" type="Url" title="JS file URL" group="Javascript"/>
+		<property id="customScript" type="String" title="Custom JS code" group="Javascript" />
+
+		<initialization>
+			<defaultValue property="WIDTH">70</defaultValue>
+			<defaultValue property="HEIGHT">70</defaultValue>
+		</initialization>
+	</component>
+</sdkExtension>

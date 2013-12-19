@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<title>JS Injector Property Sheet</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<script src="/aad/zen.rt.components.sdk/resources/js/sdk_propertysheets_handler.js"></script>
+		<script src="additional_properties_sheet.js"></script>
+	</head>
+	<script>
+		new de.abracon.jscript.JSInjectorPropertyPage();
+	</script>
+	<body>
+		<form id="form">
+			<fieldset>
+				<legend>Custom JS Code</legend>
+				<textarea id="customjscode" style="width: 100%; height: 10em;"></textarea>
+			</fieldset>
+			<input type="submit" id="customjscode_update" value="Update" />
+		</form>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+.abra-jsinjector-ct {
+	border: 4px solid #aaa;
+	background-color: white;
+	height: 62px !important;
+	width: 62px !important;
+	color: #0c419a;
+	font-family: Lucida Sans, sans-serif;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 62px;
+	font-size: 40px;
+	font-weight: bold;
+}
