@@ -8,4 +8,4 @@ A minimal addon to SAP BO Design Studio 1.2 that lets you
 Note that this is basically a development experiment. Please use with care.
 
 Thanks to Mike Howles for initiating the code exchange. 
-Check out his plugin over at over at [his github repo](https://github.com/entmike/com.ipaper.sample.htmltemplate)
+Check out his plugin over at over at [his github repo](https://github.com/entmike/com.ipaper.sample.htmltemplate).
