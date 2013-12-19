@@ -1,0 +1,13 @@
+<bi:biapp bi:version="1200" xmlns:bi="http://xml.sap.com/2011/biml/biapp" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns="http://www.w3.org/TR/REC-html40" xmlns:h="http://www.w3.org/TR/REC-html40" xmlns:sdk1="de.abracon.jscript" sdk1:version="0.2">
+	<bi:component name="APPLICATION_PROPERTIES" type="APPLICATION_PROPERTIES">
+		<bi:property name="THEME" value="sap_platinum"/>
+	</bi:component>
+	<bi:component name="ROOT" type="ABSOLUTE_LAYOUT_COMPONENT">
+		<bi:component name="JSINJECTOR_1" type="de_abracon_jscript_JSInjector">
+			<bi:property name="LEFT_MARGIN" value="273"/>
+			<bi:property name="TOP_MARGIN" value="173"/>
+			<bi:property name="customScript" value="if(console &amp;&amp; console.log) {&#10;    console.log(&apos;hello&apos;);&#10;    console.log(&apos;world&apos;);&#10;} else {&#10;    alert(&apos;please turn on developer tools, reload this page and look at the javascript console&apos;);&#10;}"/>
+			<bi:property name="scriptURL" value="included.js"/>
+		</bi:component>
+	</bi:component>
+</bi:biapp>
